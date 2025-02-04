@@ -1,25 +1,26 @@
-# Project Name
+# Groupon Clone - Java Web Project
 
-## Overview
-Briefly describe your project here.
+## 📌 Overview
+This is a Java-based web application for a **Groupon-style** online platform. The project is built using **Spring Boot**, **MyBatis**, and **Maven** to provide a structured and scalable solution for managing merchants, deals, orders, and user interactions.
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+## 🚀 Features
+- 🏪 **Merchant Management**: Merchants can register and manage their deals.
+- 🛒 **Cart & Order System**: Users can browse deals, add to cart, and place orders.
+- 💰 **Payment Integration**: Supports Alipay-based payment processing.
+- 🔍 **Search & Filters**: Users can search for deals by category, location, and price.
+- 🔐 **User Authentication**: Secure login and role-based access control.
+- 📊 **Admin Dashboard**: Administrators can manage users, deals, and orders.
 
-## Setup
-1. Install dependencies:
-   ```bash
-   mvn clean install
-   ```
-2. Run the project:
-   ```bash
-   mvn spring-boot:run
-   ```
+## 🛠️ Setup & Installation
 
-## Configuration
-Make sure to configure the database connection and any required API keys in the appropriate configuration files.
+### 🔧 Prerequisites
+- **Java 11+**
+- **Maven 3+**
+- **MySQL Database** (or another database supported by JDBC)
+- **Spring Boot** (already configured)
 
-## License
-Specify your license here.
+### 📥 Clone Repository
+```bash
+git clone https://github.com/yourusername/groupon-clone.git
+cd groupon-clone
+
