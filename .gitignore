@@ -1,0 +1,47 @@
+# Ignore IDE files
+*.iml
+.idea/
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build and dependency files
+target/
+bin/
+out/
+node_modules/
+vendor/
+
+# Ignore logs and temp files
+logs/
+*.log
+*.swp
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore Maven and Gradle build files
+.mvn/
+.gradle/
+*.jar
+*.war
+*.ear
+
+# Ignore sensitive files (configuration, credentials)
+.env
+*.key
+*.pem
+
+# Ignore specific project configuration files
+config/*.properties
+config/*.xml
+*/application.properties
+*/application.yml
+*/applicationContext.xml
+*/jdbc.properties
+
+# Ignore test environment configurations
+test.properties
+test-*.properties
